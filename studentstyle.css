@@ -1,0 +1,29 @@
+﻿BODY {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Georgia;
+	background: #000 url(background.jpg); /* Фоновый цвет и фоновый рисунок*/
+	color: #fff; /*Цвет текста на странице*/
+	background-attachment: fixed; /* Фон страницы фиксируется */
+	background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	background-size: cover;
+}
+
+H2 {
+	font-size: 20px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px black,
+               1px -1px 1px black,
+               -1px 1px 1px black,
+               -1px -1px 1px black;
+	color: white;
+	}
+
+input.showtable {
+    width: 20em;  
+	height: 2em;
+	font-family: Georgia;
+	font-size: 15px;
+	color: black;
+}

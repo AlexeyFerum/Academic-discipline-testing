@@ -1,0 +1,58 @@
+﻿BODY {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Georgia;
+	background: #000 url(background.jpg); /* Фоновый цвет и фоновый рисунок*/
+	color: #fff; /*Цвет текста на странице*/
+	background-attachment: fixed; /* Фон страницы фиксируется */
+	background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	background-size: cover;
+}
+
+H1 {
+	font-size: 50px;
+	font-weight: normal;
+	cursor: pointer;
+	display: inline-block;
+	text-shadow: 1px 1px 1px black,
+               1px -1px 1px black,
+               -1px 1px 1px black,
+               -1px -1px 1px black;
+	color: white;
+	transition: all 1s;
+	}
+	H1:after {
+		content: "";
+		display: block;
+		position: relative;
+		z-index: -1;
+		width: 100%;
+		margin: auto;
+		border-bottom: 3px solid white;
+		bottom: .15em;
+		transition: all 1s;
+		}
+		H1:hover:after {
+			width: 0%;
+			border-bottom-width: 1px;
+		}
+		
+H2 {
+	font-size: 20px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px black,
+               1px -1px 1px black,
+               -1px 1px 1px black,
+               -1px -1px 1px black;
+	color: white;
+	}
+	
+input.register {
+    width: 15em;  
+	height: 2em;
+	font-family: Georgia;
+	font-size: 15px;
+	color: black;
+}
+	
